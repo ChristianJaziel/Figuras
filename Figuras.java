@@ -18,7 +18,7 @@ public class Figuras extends JPanel {
 		
 		// inicializar la ventana
 		        ventana = new JFrame("Dibujando icono");
-		        // definir tamaÒo a ventana
+		        // definir tama√±o a ventana
 		        ventana.setSize(800, 600);
 		        ventana.setVisible(true);
 		        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -71,12 +71,12 @@ public class Figuras extends JPanel {
 		
 		//dibujo de cadenas de texto
 		g.setColor(Color.magenta);
-		g.drawString("Ejemplo de trazo de figuras b·sicas", 200, 400);
+		g.drawString("Ejemplo de trazo de figuras b√°sicas", 200, 400);
 		
 		//trazo de arcos
 		//figura 1:Solo contornos, Figura 2:Contornos, drawArc fillArc
-		g.drawArc(500, 400, 200, 50, 360, 360);
-		g.fillArc(500, 400, 200, 50, 350, 360);
+		g.drawArc(500, 400, 200, 50, 40, 60);
+		g.fillArc(500, 400, 200, 50, 40, 60);
 		
 	}
 	
